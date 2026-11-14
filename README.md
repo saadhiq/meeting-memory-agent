@@ -12,6 +12,10 @@ number of meetings, so the same design works at 10,000+ meetings.
 code copies the exact words from the database and re-verifies them. A fabricated or paraphrased
 citation cannot reach `answers.json`.
 
+**Submission documents:** [WRITEUP.md](WRITEUP.md) (one page: architecture, model-vs-code,
+failures, production) · [cost_report.md](cost_report.md) (cost and time for 1,000 meetings,
+computed from the real logs).
+
 ## Architecture
 
 ```
