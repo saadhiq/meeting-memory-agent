@@ -1,0 +1,195 @@
+{
+  "note": "12 evaluation questions written by hand and checked against the transcripts (see evidence). Topics deliberately avoid Catalist's own 25 questions. key_facts: each fact counts as found if ANY of its any_of phrases appears (word-boundary match) in the agent's answer.",
+  "questions": [
+    {
+      "eval_id": "E01",
+      "team": "IS1009",
+      "question": "What ideas did team IS1009 discuss for helping users find a lost remote control?",
+      "expected_answer": "D proposed it should beep when you clap (meeting a); the team agreed it should signal with a beep or light; in meeting b, C proposed a light on the remote whenever the TV is on.",
+      "key_facts": [
+        {"fact": "beep idea", "any_of": ["beep", "beeps", "beeping"]},
+        {"fact": "clap trigger", "any_of": ["clap", "claps", "clapping"]},
+        {"fact": "light idea", "any_of": ["light"]}
+      ],
+      "expected_meetings": ["IS1009a", "IS1009b"],
+      "evidence": [
+        {"meeting_id": "IS1009a", "time": "00:08:58", "speaker": "D", "quote": "I think another thing that would help is um if it beeps when you clap, because I think one of the big things that happens is people lose them."},
+        {"meeting_id": "IS1009b", "time": "00:17:43", "speaker": "C", "quote": "Whenever the T_V_ is on, remote controller will have a light."}
+      ]
+    },
+    {
+      "eval_id": "E02",
+      "team": "IS1009",
+      "question": "Did team IS1009 choose push buttons or a scroll wheel for the controls, and why?",
+      "expected_answer": "Push buttons, chosen in meeting c in the interest of cost (scroll wheels were called old-fashioned and need more); consistent with the simple chip-on-print confirmed in meeting d.",
+      "key_facts": [
+        {"fact": "push buttons chosen", "any_of": ["push button", "push buttons", "push-button", "push-buttons", "pushbutton", "pushbuttons"]},
+        {"fact": "cost reason", "any_of": ["cost", "cheaper", "cheap"]},
+        {"fact": "chip link", "any_of": ["chip"]}
+      ],
+      "expected_meetings": ["IS1009c", "IS1009d"],
+      "evidence": [
+        {"meeting_id": "IS1009c", "time": "00:22:39", "speaker": "D", "quote": "We'll just go for push buttons for in the interest of cost."},
+        {"meeting_id": "IS1009d", "time": "00:15:27", "speaker": "A", "quote": "Uh electronics, simple chip on print? Is that's what we're using?"}
+      ]
+    },
+    {
+      "eval_id": "E03",
+      "team": "IS1009",
+      "question": "What energy source did team IS1009 agree on for the remote, and was a rechargeable option discussed?",
+      "expected_answer": "A battery, agreed in meeting c as the most cost-effective option and confirmed in meeting d; C had suggested making it a rechargeable battery in meeting c.",
+      "key_facts": [
+        {"fact": "battery", "any_of": ["battery", "batteries"]},
+        {"fact": "rechargeable discussed", "any_of": ["rechargeable", "recharge", "recharging"]}
+      ],
+      "expected_meetings": ["IS1009c", "IS1009d"],
+      "evidence": [
+        {"meeting_id": "IS1009c", "time": "00:27:10", "speaker": "D", "quote": "I think I think battery, and I think we all agreed on that. That that's that's gonna be most cost-effective and the best thing."},
+        {"meeting_id": "IS1009d", "time": "00:14:33", "speaker": "A", "quote": "Okay uh energy source we say that's battery, right?"}
+      ]
+    },
+    {
+      "eval_id": "E04",
+      "team": "IS1008",
+      "question": "Which case material did team IS1008 settle on for the remote, and what durability requirements had they set earlier?",
+      "expected_answer": "Wood (meeting c) - titanium was eliminated because curved cases cannot be made from it, and wood is environmentally friendly. Earlier, in meeting b, the remote was required to be waterproof and unbreakable.",
+      "key_facts": [
+        {"fact": "wood chosen", "any_of": ["wood", "wooden"]},
+        {"fact": "waterproof requirement", "any_of": ["waterproof", "water proof", "water-proof"]},
+        {"fact": "unbreakable requirement", "any_of": ["unbreakable"]}
+      ],
+      "expected_meetings": ["IS1008b", "IS1008c"],
+      "evidence": [
+        {"meeting_id": "IS1008b", "time": "00:05:49", "speaker": "B", "quote": "I think uh it needs to be waterproof, because uh sometimes they fall into cups"},
+        {"meeting_id": "IS1008b", "time": "00:07:34", "speaker": "A", "quote": "if you can add other facility, other feature, like uh unbreakable."},
+        {"meeting_id": "IS1008c", "time": "00:22:59", "speaker": "C", "quote": "I think we've kinda come to some agreement regarding um this concept of a wooden case."}
+      ]
+    },
+    {
+      "eval_id": "E05",
+      "team": "IS1008",
+      "question": "How did team IS1008's selling price and production cost targets change between their meetings?",
+      "expected_answer": "In meeting b the sales price was twenty-five Euro with a production price of twelve and a half Euro; in meeting d, D proposed a fifty Euro price with production cost not exceeding twenty-five Euro.",
+      "key_facts": [
+        {"fact": "25 euro figure", "any_of": ["twenty-five", "twenty five", "25"]},
+        {"fact": "50 euro figure", "any_of": ["fifty", "50"]},
+        {"fact": "12.50 figure", "any_of": ["twelve and a half", "12.5", "12.50", "twelve fifty", "twelve euro fifty", "twelve point five"]}
+      ],
+      "expected_meetings": ["IS1008b", "IS1008d"],
+      "evidence": [
+        {"meeting_id": "IS1008b", "time": "00:12:27", "speaker": "D", "quote": "I have a sales price of twenty-five Euro, with a production price of uh twelve and a half Euro."},
+        {"meeting_id": "IS1008d", "time": "00:13:05", "speaker": "D", "quote": "So, if we put an inflated price of fifty Euro at a production cost that cannot exceed twenty-five Euro"}
+      ]
+    },
+    {
+      "eval_id": "E06",
+      "team": "TS3003",
+      "question": "Team TS3003 discussed a docking station. What trade-off was it part of, and did the final design include it?",
+      "expected_answer": "In meeting b it was weighed against the LCD screen on cost ('choose between the docking station or the screen'); at the final budget check in meeting d the team was within budget only because they were not going to make a docking station.",
+      "key_facts": [
+        {"fact": "screen trade-off", "any_of": ["screen", "lcd", "l_c_d", "display"]},
+        {"fact": "docking station", "any_of": ["docking"]},
+        {"fact": "not included", "any_of": ["not", "dropped", "without", "excluded", "scrapped", "left out"]}
+      ],
+      "expected_meetings": ["TS3003b", "TS3003d"],
+      "evidence": [
+        {"meeting_id": "TS3003b", "time": "00:31:04", "speaker": "C", "quote": "I think we'll have to choose between the docking station or the screen"},
+        {"meeting_id": "TS3003d", "time": "00:38:45", "speaker": "C", "quote": "Considering we are not going to make a docking station."}
+      ]
+    },
+    {
+      "eval_id": "E07",
+      "team": "TS3003",
+      "question": "Team TS3003 considered removing the small screen from their remote to save money. Why had the screen been proposed in the first place, and did it survive into the final design?",
+      "expected_answer": "It was proposed in meeting b to explain a button when pressed, because the elderly target group finds new remotes hard to learn. In meeting d, C noted leaving out the display would also save money on the chip, but the screen was kept (it was the remote's big advantage) and the docking station was dropped instead.",
+      "key_facts": [
+        {"fact": "explains buttons", "any_of": ["explain", "explains", "explaining", "explanation"]},
+        {"fact": "elderly users", "any_of": ["elderly", "older"]},
+        {"fact": "screen kept", "any_of": ["kept", "keep", "stayed", "remained", "survived"]}
+      ],
+      "expected_meetings": ["TS3003b", "TS3003d"],
+      "evidence": [
+        {"meeting_id": "TS3003b", "time": "00:31:12", "speaker": "D", "quote": "it might be a good idea to have just a little screen on it, which would explain a button if you press it."},
+        {"meeting_id": "TS3003d", "time": "00:12:03", "speaker": "C", "quote": "If we leave out the display we can also save money on the chip."},
+        {"meeting_id": "TS3003d", "time": "00:23:13", "speaker": "A", "quote": "I think we can then keep the single curved one. Just to express our L_C_D_ screen a bit more."}
+      ]
+    },
+    {
+      "eval_id": "E08",
+      "team": "TS3004",
+      "question": "Which chip did team TS3004 pick in meeting c, and which chip did they end up using in the final meeting, and why?",
+      "expected_answer": "In meeting c they chose the regular chip (of simple, regular and advanced). In meeting d they reversed to the advanced chip, because the advanced chip was needed for speech recognition.",
+      "key_facts": [
+        {"fact": "regular chip first", "any_of": ["regular"]},
+        {"fact": "advanced chip finally", "any_of": ["advanced"]},
+        {"fact": "speech recognition reason", "any_of": ["speech"]}
+      ],
+      "expected_meetings": ["TS3004c", "TS3004d"],
+      "evidence": [
+        {"meeting_id": "TS3004c", "time": "00:26:18", "speaker": "C", "quote": "the chip is the the regular one. You have the simple one, regular and advanced. So it's b should be regular"},
+        {"meeting_id": "TS3004d", "time": "00:02:09", "speaker": "B", "quote": "No. Yeah, we're gonna use the advanced chip then."}
+      ]
+    },
+    {
+      "eval_id": "E09",
+      "team": "TS3004",
+      "question": "How was team TS3004's remote to be powered, and what was said in the final meeting about a docking station for it?",
+      "expected_answer": "With a rechargeable battery / built-in recharger (meeting b, confirmed in c). In the final meeting the docking station (homestation) was not on the cost list; C asked if it could be made for twenty cents and the answer was probably yes.",
+      "key_facts": [
+        {"fact": "rechargeable power", "any_of": ["rechargeable", "recharger", "recharge"]},
+        {"fact": "twenty cents", "any_of": ["twenty cents", "20 cents", "0.20"]}
+      ],
+      "expected_meetings": ["TS3004b", "TS3004d"],
+      "evidence": [
+        {"meeting_id": "TS3004b", "time": "00:21:37", "speaker": "A", "quote": "No, we have a recharger in it, so"},
+        {"meeting_id": "TS3004d", "time": "00:26:33", "speaker": "C", "quote": "Can we make that for uh h twenty cents?"}
+      ]
+    },
+    {
+      "eval_id": "E10",
+      "team": "TS3005",
+      "question": "Why was speech recognition proposed for team TS3005's remote, and what happened to it in the end?",
+      "expected_answer": "Proposed in meeting c so users could call a lost remote ('yell remote where are you'). In the final meeting it was dropped, together with the sample speaker, to get the cost down.",
+      "key_facts": [
+        {"fact": "finding lost remote reason", "any_of": ["lost", "lose", "find", "call"]},
+        {"fact": "dropped in the end", "any_of": ["dropped", "drop", "scrapped", "removed"]},
+        {"fact": "speaker component", "any_of": ["speaker"]}
+      ],
+      "expected_meetings": ["TS3005c", "TS3005d"],
+      "evidence": [
+        {"meeting_id": "TS3005c", "time": "00:12:27", "speaker": "B", "quote": "because people um lose the remote, they can yell uh remote where are you"},
+        {"meeting_id": "TS3005d", "time": "00:29:44", "speaker": "A", "quote": "we dropped the speech recognition together with the speaker."}
+      ]
+    },
+    {
+      "eval_id": "E11",
+      "team": "TS3005",
+      "question": "What case material did team TS3005 go with, and which alternative materials came up late in their final meeting?",
+      "expected_answer": "Rubber (agreed in meeting c). Late in meeting d, wood was proposed and rejected (a wooden remote only helps for old people), and titanium was floated; in the end they dropped the sample speaker instead and the material stayed rubber.",
+      "key_facts": [
+        {"fact": "rubber", "any_of": ["rubber"]},
+        {"fact": "wood proposed", "any_of": ["wood", "wooden"]},
+        {"fact": "titanium floated", "any_of": ["titanium"]}
+      ],
+      "expected_meetings": ["TS3005c", "TS3005d"],
+      "evidence": [
+        {"meeting_id": "TS3005c", "time": "00:27:01", "speaker": "C", "quote": "And the case, yeah we already discussed the case, we wanted to make it from rubber"},
+        {"meeting_id": "TS3005d", "time": "00:26:25", "speaker": "B", "quote": "Uh. We could make it titanium instead of rubber."}
+      ]
+    },
+    {
+      "eval_id": "E12",
+      "team": "TS3005",
+      "question": "What production cost limit did team TS3005 work to across their meetings?",
+      "expected_answer": "Twelve Euro fifty: mentioned as the cost constraint in meeting b, and restated in meeting d as the limit the calculated production costs had to be at or under.",
+      "key_facts": [
+        {"fact": "12.50 limit", "any_of": ["twelve fifty", "twelve euro fifty", "twelve and a half", "12.5", "12.50", "twelve point five", "twelve euro and fifty"]}
+      ],
+      "expected_meetings": ["TS3005b", "TS3005d"],
+      "evidence": [
+        {"meeting_id": "TS3005b", "time": "00:29:12", "speaker": "B", "quote": "I don't know if that can be done with the cost of twelve fifty."},
+        {"meeting_id": "TS3005d", "time": "00:21:41", "speaker": "A", "quote": "we're going to calculate the production costs, and if they are uh under or at twelve Euro fifty,"}
+      ]
+    }
+  ]
+}

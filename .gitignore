@@ -1,0 +1,17 @@
+# Secrets - never commit the API key
+.env
+
+# Rebuilt automatically
+__pycache__/
+debug_*.txt
+
+# Large stores - rebuilt from transcripts/ with parse.py, chunk.py, hybrid.py build, extract.py
+memory.db
+chroma_store/
+
+# Personal working documents - not part of the submission
+PROJECT_CONTEXT.md
+ARCHITECTURE_GUIDE.docx
+
+# Office lock/temp files
+~$*

@@ -1,0 +1,373 @@
+{
+  "E01": {
+    "question": "What ideas did team IS1009 discuss for helping users find a lost remote control?",
+    "answer": "Team IS1009 discussed having the remote beep when someone claps to help locate it, and A proposed using a light sensor to signal when the remote is in a dark spot. Later, C proposed an automatic light on the remote when the TV is on to aid in locating it. D suggested the remote should beep when someone claps to help locate it because people often lose them. A proposed using a light sensor to activate a signal when the remote is in a dark spot. C proposed adding an automatic light on the remote when the TV is on to help locate a lost remote.",
+    "citations": [
+      {
+        "meeting_id": "IS1009a",
+        "quote": "I think another thing that would help is um if it beeps when you clap, because I think one of the big things that happens is people lose them. They can't find it."
+      },
+      {
+        "meeting_id": "IS1009a",
+        "quote": "my my idea is maybe that the minute it's really hidden, in in other words if it's like in a dark spot, uh meaning you know like a newspaper is on top, a sweater is on top or it it's"
+      },
+      {
+        "meeting_id": "IS1009b",
+        "quote": "Maybe we can have that. Whenever the T_V_ is on, remote controller will have a light."
+      }
+    ],
+    "score": {
+      "found": [
+        "beep idea",
+        "clap trigger",
+        "light idea"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 3,
+      "citations_valid": 3,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 12092,
+    "seconds": 12.4
+  },
+  "E02": {
+    "question": "Did team IS1009 choose push buttons or a scroll wheel for the controls, and why?",
+    "answer": "Team IS1009 chose push buttons because a scroll wheel requires a more expensive, sophisticated chip, and this was agreed upon in the later meetings. Speaker A noted that the industrial designer requested push buttons instead of scrolling because it was less practical in the final meeting. The final decision favored push buttons for cost reasons.",
+    "citations": [
+      {
+        "meeting_id": "IS1009c",
+        "quote": "So I think it's better we go for uh um ordinary buttons. Yeah uh yeah, push-buttons. Yeah. Yeah."
+      },
+      {
+        "meeting_id": "IS1009d",
+        "quote": "She would like uh this whole thing should be push buttons with a simple chip uh scrolling method is more expensive and not that practical anymore."
+      }
+    ],
+    "score": {
+      "found": [
+        "push buttons chosen",
+        "cost reason",
+        "chip link"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 10580,
+    "seconds": 9.7
+  },
+  "E03": {
+    "question": "What energy source did team IS1009 agree on for the remote, and was a rechargeable option discussed?",
+    "answer": "The team agreed that the remote will use a battery as its energy source, and a rechargeable option was discussed by Speaker C during meeting IS1009c. The final decision on the energy source was battery, as stated in meeting IS1009d.",
+    "citations": [
+      {
+        "meeting_id": "IS1009c",
+        "quote": "A battery uh, I would like to suggest one thing uh if we uh if we will be able to make a res rechargeable battery then we sh we need not go for a high performance battery,"
+      },
+      {
+        "meeting_id": "IS1009c",
+        "quote": "I think I think battery, and I think we all agreed on that. That that's that's gonna be most cost-effective and the best thing."
+      },
+      {
+        "meeting_id": "IS1009d",
+        "quote": "Okay uh energy source we say that's battery, right?"
+      }
+    ],
+    "score": {
+      "found": [
+        "battery",
+        "rechargeable discussed"
+      ],
+      "missing": [],
+      "facts_total": 2,
+      "citations": 3,
+      "citations_valid": 3,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 12294,
+    "seconds": 8.9
+  },
+  "E04": {
+    "question": "Which case material did team IS1008 settle on for the remote, and what durability requirements had they set earlier?",
+    "answer": "Team IS1008 settled on wood for the remote's case material in meeting c, and earlier in meeting b, the team agreed the remote must be waterproof and unbreakable. Speaker C: So the advanced chip on print is what we've we've deci we've determined and the engineering industrial design is the recommendation, and I think we've kinda come to some agreement regarding this concept of a wooden case. Speaker B said: \"I think uh it needs to be waterproof, because uh sometimes they fall into cups and, you know, it might be out by the swimming pool or something like that.\"",
+    "citations": [
+      {
+        "meeting_id": "IS1008c",
+        "quote": "I think we've kinda come to some agreement regarding"
+      },
+      {
+        "meeting_id": "IS1008b",
+        "quote": "I think uh it needs to be waterproof, because uh sometimes they fall into cups and, you know, it might be out by the swimming pool or something like that."
+      }
+    ],
+    "score": {
+      "found": [
+        "wood chosen",
+        "waterproof requirement",
+        "unbreakable requirement"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 9419,
+    "seconds": 8.8
+  },
+  "E05": {
+    "question": "How did team IS1008's selling price and production cost targets change between their meetings?",
+    "answer": "The initial selling price was twenty-five Euros with a production cost of twelve and a half Euros, but in the final meeting, D proposed a selling price of fifty Euros while keeping the production cost under twenty-five Euros. A later meeting also indicated A would try to negotiate the production cost to be lower.",
+    "citations": [
+      {
+        "meeting_id": "IS1008b",
+        "quote": "I have a sales price of twenty-five Euro, with a production price of uh twelve and a half Euro."
+      },
+      {
+        "meeting_id": "IS1008d",
+        "quote": "So, if we put an inflated price of fifty Euro at a production cost that cannot exceed twenty-five Euro, okay, we're already in that that price, okay,"
+      }
+    ],
+    "score": {
+      "found": [
+        "25 euro figure",
+        "50 euro figure",
+        "12.50 figure"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 12484,
+    "seconds": 9.5
+  },
+  "E06": {
+    "question": "Team TS3003 discussed a docking station. What trade-off was it part of, and did the final design include it?",
+    "answer": "Team TS3003 discussed the docking station as a trade-off against the LCD screen, as stated by Speaker C. The final design did not include a docking station because Speaker C stated the team would not make one in the latest meeting. confirms this final decision.",
+    "citations": [
+      {
+        "meeting_id": "TS3003b",
+        "quote": "Y i um I think we'll have to choose between the docking station or the screen, 'cause"
+      },
+      {
+        "meeting_id": "TS3003d",
+        "quote": "Considering we are not going to make a docking station."
+      }
+    ],
+    "score": {
+      "found": [
+        "screen trade-off",
+        "docking station",
+        "not included"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 6690,
+    "seconds": 10.9
+  },
+  "E07": {
+    "question": "Team TS3003 considered removing the small screen from their remote to save money. Why had the screen been proposed in the first place, and did it survive into the final design?",
+    "answer": "The small screen was proposed by D to explain button functions to aid elderly users, and it survived into the final design because A agreed to keep the single curved design to better display the LCD screen. states D proposed the small LCD screen for elderly users, and shows A decided to keep the single curved design for the display.",
+    "citations": [
+      {
+        "meeting_id": "TS3003b",
+        "quote": "to learn, and we're focusing on elderly people here which tend to have a hard time understanding new devices, it might be a good idea to have just a little screen on it, which would explain a button if you"
+      },
+      {
+        "meeting_id": "TS3003d",
+        "quote": "I don't know, but I think the single curved is good for design, and also for the display to have a prominent place on the remote control. I think we have to keep that."
+      }
+    ],
+    "score": {
+      "found": [
+        "explains buttons",
+        "elderly users",
+        "screen kept"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 12979,
+    "seconds": 12.2
+  },
+  "E08": {
+    "question": "Which chip did team TS3004 pick in meeting c, and which chip did they end up using in the final meeting, and why?",
+    "answer": "In meeting c, the team agreed to use a normal chip and skip the expensive LCD screen, but in the final meeting d, they ended up using the advanced chip because Speaker A stated it was still within the budget. and",
+    "citations": [
+      {
+        "meeting_id": "TS3004c",
+        "quote": "I don't think that's an opportunity. Just skip it. Because we don't have time for that to to put it in."
+      },
+      {
+        "meeting_id": "TS3004d",
+        "quote": "No. Yeah, we're gonna use the advanced chip then."
+      }
+    ],
+    "score": {
+      "found": [
+        "advanced chip finally"
+      ],
+      "missing": [
+        "regular chip first",
+        "speech recognition reason"
+      ],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "WRONG"
+    },
+    "rounds": 1,
+    "tokens": 6522,
+    "seconds": 10.4
+  },
+  "E09": {
+    "question": "How was team TS3004's remote to be powered, and what was said in the final meeting about a docking station for it?",
+    "answer": "Team TS3004's remote was to be powered by a rechargeable battery, and in the final meeting, Speaker D mentioned that the remote should slide into a docking station.",
+    "citations": [
+      {
+        "meeting_id": "TS3004c",
+        "quote": "So the energy uh is the recharger. We already know that. Just a normal battery. Okay."
+      },
+      {
+        "meeting_id": "TS3004c",
+        "quote": "Yeah, you sl uh you let it slide in the docking station."
+      }
+    ],
+    "score": {
+      "found": [
+        "rechargeable power"
+      ],
+      "missing": [
+        "twenty cents"
+      ],
+      "facts_total": 2,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 1,
+      "verdict": "PARTIAL"
+    },
+    "rounds": 3,
+    "tokens": 20458,
+    "seconds": 13.1
+  },
+  "E10": {
+    "question": "Why was speech recognition proposed for team TS3005's remote, and what happened to it in the end?",
+    "answer": "Speech recognition was proposed by Speaker B to allow users to call for a lost remote, and in the end, the team dropped speech recognition along with the speaker feature. This final decision was made in the last meeting, TS3005d.",
+    "citations": [
+      {
+        "meeting_id": "TS3005c",
+        "quote": "Um perhaps it's useful, perhaps for because people um lose the remote, they can yell uh remote where are you and calls or something."
+      },
+      {
+        "meeting_id": "TS3005d",
+        "quote": "So it's curved, it's still that so we we dropped the speech recognition together with the speaker."
+      }
+    ],
+    "score": {
+      "found": [
+        "finding lost remote reason",
+        "dropped in the end",
+        "speaker component"
+      ],
+      "missing": [],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 8778,
+    "seconds": 10.1
+  },
+  "E11": {
+    "question": "What case material did team TS3005 go with, and which alternative materials came up late in their final meeting?",
+    "answer": "Team TS3005 agreed to use rubber as the case material in meeting TS3005c, and the alternative materials that came up late in the final meeting TS3005d included a wood-like print applied to rubber. shows C decided rubber was best, and shows A suggested a wood-like print on rubber in the final meeting.",
+    "citations": [
+      {
+        "meeting_id": "TS3005c",
+        "quote": "the case was is made from rubber, I suppose. There's one of the because when you use a remote control a lot of people uh will uh will uh drop their remote control and they break uh becau the uh"
+      },
+      {
+        "meeting_id": "TS3005d",
+        "quote": "Yeah, and I though w we had about single colours, but you can also make uh a wood colour, not just one single colour but a wood-like thing, can't you?"
+      }
+    ],
+    "score": {
+      "found": [
+        "rubber",
+        "wood proposed"
+      ],
+      "missing": [
+        "titanium floated"
+      ],
+      "facts_total": 3,
+      "citations": 2,
+      "citations_valid": 2,
+      "meetings_cited": 2,
+      "verdict": "PARTIAL"
+    },
+    "rounds": 1,
+    "tokens": 10404,
+    "seconds": 11.8
+  },
+  "E12": {
+    "question": "What production cost limit did team TS3005 work to across their meetings?",
+    "answer": "The production cost limit was initially mentioned as twelve Euro fifty by Speaker B, but in the final meeting, Speaker A stated that production costs must be at or under twelve Euro fifty. The final calculation confirmed that the costs were under or at twelve Euro fifty, allowing for the design to proceed.",
+    "citations": [
+      {
+        "meeting_id": "TS3005a",
+        "quote": "the production cost will be twelve Euro fifty max."
+      },
+      {
+        "meeting_id": "TS3005b",
+        "quote": "I don't know if that can be done with the cost of twelve fifty. With that uh"
+      },
+      {
+        "meeting_id": "TS3005d",
+        "quote": "And um I'm not sure if I put it in the project folder. look on that. Um and we're going to calculate the production costs, and if they are uh under or at twelve Euro fifty,"
+      }
+    ],
+    "score": {
+      "found": [
+        "12.50 limit"
+      ],
+      "missing": [],
+      "facts_total": 1,
+      "citations": 3,
+      "citations_valid": 3,
+      "meetings_cited": 3,
+      "verdict": "RIGHT"
+    },
+    "rounds": 1,
+    "tokens": 8612,
+    "seconds": 11.4
+  }
+}

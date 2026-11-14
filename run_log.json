@@ -1,0 +1,177 @@
+{
+  "Q01": {
+    "rounds": 2,
+    "tokens": 17085,
+    "seconds": 15.9,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q02": {
+    "rounds": 2,
+    "tokens": 28870,
+    "seconds": 16.6,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q03": {
+    "rounds": 1,
+    "tokens": 6889,
+    "seconds": 7.7,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q04": {
+    "rounds": 3,
+    "tokens": 29377,
+    "seconds": 17.1,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q05": {
+    "rounds": 1,
+    "tokens": 9963,
+    "seconds": 8.0,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q06": {
+    "rounds": 1,
+    "tokens": 12377,
+    "seconds": 9.6,
+    "citations": 3,
+    "meetings_cited": 3
+  },
+  "Q07": {
+    "rounds": 1,
+    "tokens": 11714,
+    "seconds": 8.9,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q08": {
+    "rounds": 3,
+    "tokens": 35625,
+    "seconds": 19.1,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q09": {
+    "rounds": 1,
+    "tokens": 8341,
+    "seconds": 6.8,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q10": {
+    "rounds": 3,
+    "tokens": 39109,
+    "seconds": 17.7,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q11": {
+    "rounds": 3,
+    "tokens": 28521,
+    "seconds": 14.7,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q12": {
+    "rounds": 1,
+    "tokens": 11263,
+    "seconds": 8.8,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q13": {
+    "rounds": 1,
+    "tokens": 7858,
+    "seconds": 8.1,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q14": {
+    "rounds": 3,
+    "tokens": 34220,
+    "seconds": 18.1,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q15": {
+    "rounds": 3,
+    "tokens": 40175,
+    "seconds": 12.9,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q16": {
+    "rounds": 1,
+    "tokens": 9005,
+    "seconds": 7.6,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q17": {
+    "rounds": 3,
+    "tokens": 32927,
+    "seconds": 15.1,
+    "citations": 3,
+    "meetings_cited": 1
+  },
+  "Q18": {
+    "rounds": 3,
+    "tokens": 37427,
+    "seconds": 16.7,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q19": {
+    "rounds": 2,
+    "tokens": 17694,
+    "seconds": 12.1,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q20": {
+    "rounds": 3,
+    "tokens": 38153,
+    "seconds": 13.4,
+    "citations": 2,
+    "meetings_cited": 1
+  },
+  "Q21": {
+    "rounds": 3,
+    "tokens": 28219,
+    "seconds": 14.0,
+    "citations": 3,
+    "meetings_cited": 2
+  },
+  "Q22": {
+    "rounds": 1,
+    "tokens": 7795,
+    "seconds": 7.8,
+    "citations": 3,
+    "meetings_cited": 3
+  },
+  "Q23": {
+    "rounds": 1,
+    "tokens": 11364,
+    "seconds": 9.7,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q24": {
+    "rounds": 1,
+    "tokens": 12713,
+    "seconds": 9.3,
+    "citations": 2,
+    "meetings_cited": 2
+  },
+  "Q25": {
+    "rounds": 2,
+    "tokens": 19100,
+    "seconds": 13.4,
+    "citations": 2,
+    "meetings_cited": 2
+  }
+}
