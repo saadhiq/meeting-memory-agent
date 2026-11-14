@@ -62,13 +62,28 @@ The LLM is served by the NVIDIA API (OpenAI-compatible, free tier, ~40 requests/
 at https://build.nvidia.com. `python test_key.py` checks the key works; `python test_model.py
 <model>` checks a model responds.
 
-## Run everything, in order
+## Quick start (~5 minutes, skips the LLM extraction)
+
+The repo ships `ledger_snapshot.json`: the unedited output of `extract.py` on the full corpus,
+so you don't have to pay for the ~40-minute LLM extraction to try the agent. Everything
+deterministic is still rebuilt from the raw transcripts on your machine:
+
+```powershell
+python parse.py transcripts    # transcripts -> speaker turns in memory.db (seconds)
+python chunk.py                # turns -> chunks + keyword index (seconds)
+python hybrid.py build         # embed chunks locally into Chroma (~4 min, no API, no cost)
+python snapshot.py load        # load the pre-extracted ledger (instant)
+python agent.py Q14            # ask something - needs only your NVIDIA_API_KEY in .env
+```
+
+## Full pipeline, in order
 
 ```powershell
 python parse.py transcripts    # 1. transcripts -> speaker turns in memory.db (seconds)
 python chunk.py                # 2. turns -> chunks + keyword index (seconds)
 python hybrid.py build         # 3. embed chunks locally into Chroma (~4 min, no API)
 python extract.py all          # 4. LLM builds the ledger (~40 min on the free tier; resumable)
+                               #    OR: python snapshot.py load  (use the shipped snapshot)
 python run_all.py              # 5. answer all 25 questions + write the brief -> answers.json
 python check_format.py         # 6. verify answers.json schema and every quote word-for-word
 ```
@@ -119,6 +134,7 @@ Scoring is pure code: key facts by word-boundary match, every citation re-verifi
 | `extract.py` | LLM extraction of the ledger, verified by code |
 | `agent.py` | the LangGraph agent loop |
 | `run_all.py` | produces `answers.json` (25 answers + TS3012 brief) |
+| `snapshot.py`, `ledger_snapshot.json` | checkpoint of the LLM extraction, to skip the ~40 min step |
 | `evaluate.py`, `eval_questions.json` | self-evaluation on hand-checked questions |
 | `check_format.py` | pre-submission schema + quote check |
 | `topics.py`, `test_key.py`, `test_model.py` | inspection and API diagnostics |
