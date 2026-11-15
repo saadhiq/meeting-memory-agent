@@ -12,6 +12,10 @@ number of meetings, so the same design works at 10,000+ meetings.
 code copies the exact words from the database and re-verifies them. A fabricated or paraphrased
 citation cannot reach `answers.json`.
 
+**Live demo:** http://129.225.64.197 — the full agent running on an Oracle Cloud Always Free VM
+(1 CPU / 1 GB). Ask any question that names a team id; answers take ~35–45 s on this small
+free machine.
+
 **Submission documents:** [WRITEUP.md](WRITEUP.md) (one page: architecture, model-vs-code,
 failures, production) · [cost_report.md](cost_report.md) (cost and time for 1,000 meetings,
 computed from the real logs).
